@@ -138,6 +138,8 @@ class App(ctk.CTk):
             enderecoValue.set("")
             tbObs.delete(0.0, END)
 
+            messagebox.showinfo('Sistema', 'Tela limpa com sucesso!')
+
 
         botaoEnviar = ctk.CTkButton(self, text='Enviar', font=('Century Gothic bold', 14), command=enviar)
         botaoEnviar.place(x=500, y=460)
